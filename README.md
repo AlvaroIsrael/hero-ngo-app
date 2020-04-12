@@ -22,5 +22,5 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ### :muscle: What is it?
 <b>Be the Hero</b> is a small app to support financially non governamental organizations.
 
-### :memo: Licença
+### :memo: Licence
 This is under MIT license. See [LICENSE](LICENSE.md) for more details.
