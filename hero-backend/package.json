@@ -1,0 +1,26 @@
+{
+  "name": "hero-backend",
+  "version": "0.1.0",
+  "description": "Backend da semana OmniStack 11.0",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Alvaro Israel Nunes Leite",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "celebrate": "^12.0.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^25.2.4",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
