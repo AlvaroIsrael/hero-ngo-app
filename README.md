@@ -38,7 +38,7 @@ npm install
 cd hero-mobile 
 npm install
 ```
-After that do not forget to download and install [Expo](https://expo.io/), otherwise anormal behavior may occour.
+After that do not forget to download and install [Expo](https://expo.io/), otherwise abnormal behavior may occour.
 
 Once all dependencies and Expo were installed, run the server with:
 ```
