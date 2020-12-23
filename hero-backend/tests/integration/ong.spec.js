@@ -3,12 +3,12 @@ const connection = require('../../src/database/connection');
 const app = require('../../src/app');
 
 describe('ONG', () => {
-  beforeEach(async () => {
+  beforeEach(async() => {
     await connection.migrate.rollback();
     await connection.migrate.latest();
   });
 
-  afterAll(async () => {
+  afterAll(async() => {
     await connection.destroy();
   });
 
