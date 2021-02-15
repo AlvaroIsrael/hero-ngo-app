@@ -212,7 +212,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -252,9 +251,6 @@ dist
 # Compiled class file
 *.class
 
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -275,3 +271,7 @@ hs_err_pid*
 
 #node library
 /node_modules
+
+package-lock.json
+
+yarn.lock
