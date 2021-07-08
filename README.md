@@ -46,14 +46,14 @@ This project uses Expo, NodeJS, React and React Native, so in order for it to wo
 folder and run npm install tho download the proper dependencies:
 
 ```bash
-cd hero-backend
-npm install
+$ cd hero-backend
+$ npm install
 
-cd hero-frontend
-npm install
+$ cd hero-frontend
+$ npm install
 
-cd hero-mobile 
-npm install
+$ cd hero-mobile 
+$ npm install
 ```
 
 After that do not forget to download and install [Expo](https://expo.io/), otherwise abnormal behavior may occour.
@@ -61,50 +61,45 @@ After that do not forget to download and install [Expo](https://expo.io/), other
 Once all dependencies and Expo were installed, run the server with:
 
 ```bash
-cd hero-backend
-npm run start
+$ cd hero-backend
+$ npm run start
 ```
 
 And either run the frontend app or the mobile version:
 
 ```bash
-cd hero-frontend
-npm run start
+$ cd hero-frontend
+$ npm run start
 ```
 
 ```bash
-cd hero-backend
-npm run start
+$ cd hero-backend
+$ npm run start
 ```
 
 ### 🤝 Contributing
 
-Fork this repository:
+Fork this repository: https://github.com/AlvaroIsrael/hero-ngo-app/fork
 
 ```bash
-https://github.com/AlvaroIsrael/hero-ngo-app/fork
+# Create your feature branch:
+$ git checkout -b feature/myAewsomeFeature
+
+# Commit your changes:
+$ git commit -m 'feat: Added some new aewsomeFeature'
+
+# Push to the branch:
+$ git push origin feature/myAewsomeFeature
+
+# Create a new pull request
 ```
 
-Create your feature branch:
+- Read more about commits in [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+- Read more about how to open a Pull Request from
+  [GitHub official documentation](
+  https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+  ).
 
-```bash
-git checkout -b feature/myAewsomeFeature
-```
-
-Commit your changes:
-
-```bash
-git commit -m 'Add some new myAewsomeFeature'
-```
-
-Push to the branch:
-
-```bash
-git push origin feature/myAewsomeFeature
-```
-
-Create a new Pull Request
-
-### 🧾 Licence
+### 📝 Licence
 
 This is under MIT license. See [LICENSE](LICENSE.md) for more details.
